@@ -6,10 +6,11 @@ import quill from '../../utils/svg/quill.svg';
 const Home = () => {
     return <div className="home-container">
             <div className="header">
+                {/* The commented text bellow is going to be replaced by a real logo 
                 <div className="logo-container">
-                    <p> Esto sera un logo </p>
+                    <p>Logo </p>
                     <img src={quill} alt="Quill logo"  className="logo"/>
-                </div>
+                </div> */}
             </div>
             <div className="welcome-container">
                 <div className="welcome-text">
