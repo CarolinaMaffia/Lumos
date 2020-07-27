@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.scss';
+import history from "../../history.js";
 import homeImg from '../../utils/svg/home.svg';
-import quill from '../../utils/svg/quill.svg';
+// import quill from '../../utils/svg/quill.svg';
 
 const Home = () => {
     return <div className="home-container">
@@ -21,7 +22,7 @@ const Home = () => {
             </div>
 
             <div className="start-container">
-                <button>
+                <button onClick={() => history.push('/Write')} to="/Write" >
                     Get started
                 </button>
             </div>

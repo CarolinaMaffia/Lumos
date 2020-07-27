@@ -1,22 +1,16 @@
 import React from 'react';
-import Home from './screens/home';
 import './App.scss';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Routes from './Routes.js';
+
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-          <Route exact path="/">
-            <div className="App">
-              <Home />
-            </div>
-          </Route>
-      </Switch>
+        <div className="App">
+            <Routes />
+        </div>
     </Router>
   );
 }
