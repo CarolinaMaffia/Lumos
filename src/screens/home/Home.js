@@ -6,9 +6,9 @@ const Home = () => {
     return <div className="home-container">
             <div className="header">
                 <div className="logo-container">
-                    <h3>
+                    <p>
                         Lumos
-                    </h3>
+                    </p>
                 </div>
             </div>
             <div className="welcome-container">
