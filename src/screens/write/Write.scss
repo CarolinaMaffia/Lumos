@@ -8,7 +8,6 @@
 .header {
     height: 10%;
     display: flex;
-    border-bottom: 1px solid #d1c4e9;
 }
 
 .logo {
@@ -33,4 +32,6 @@
 
 .write-content{
     height: 90%;
+    display: flex;
+    justify-content: center;
 }
